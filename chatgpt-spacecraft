@@ -74,3 +74,12 @@ EMF = E / Q
 where E is the energy and Q is the charge. To determine the EMF, the values of E and Q are needed. The value of E can be calculated using the equation E = (m_final - m_initial) * v_esc**2 / 2 and the value of Q can be determined based on the desired electric charge. Once the values of E and Q are known, the EMF can be calculated by dividing E by Q.
 
 
+mInitial = 1000.0
+mFinal = mInitial + 1000.0
+G = 6.67430 * 10^-11
+mass = 2.0 * 10^30
+vEsc = (2 * G * mass / (6.371 * 10^6))^0.5
+
+emf = (mFinal - mInitial) * vEsc^2 / 2
+thrust = emf / vEsc
+thrustToWeightRatio = thrust / mass
