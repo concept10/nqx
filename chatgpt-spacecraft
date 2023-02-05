@@ -67,3 +67,10 @@ motor_size = F_generated / v_esc
 
 print("The size of the motor required to achieve the energy is:", motor_size, "kg")
 
+The electromotive force (EMF) required to equal the energy equation E = (m_final - m_initial) * v_esc**2 / 2 can be calculated using the equation:
+
+EMF = E / Q
+
+where E is the energy and Q is the charge. To determine the EMF, the values of E and Q are needed. The value of E can be calculated using the equation E = (m_final - m_initial) * v_esc**2 / 2 and the value of Q can be determined based on the desired electric charge. Once the values of E and Q are known, the EMF can be calculated by dividing E by Q.
+
+
